@@ -57,6 +57,9 @@
 .margin_b_20 {
     margin-bottom: 20px;
 }
+.mb_30{
+    margin-bottom: 30px;
+}
 
 .m_b_60 {
     margin-bottom: 60px;
@@ -135,6 +138,7 @@
         padding-left: 12px;
         padding-right: 12px;
     }
+   
 }
 
 .menu_f_f {
@@ -151,6 +155,9 @@ header ul li:not(:last-child) a {
 
 header ul li a {
     color: #ffffff;
+}
+.fs_13{
+    font-size: 13px;
 }
 
 .z-index-1 {
@@ -374,6 +381,9 @@ header ul li:not(:last-child) a {
 .bg_trans {
     background-color: #E9F1FF;
 }
+.align_item_start{
+    align-items: flex-start;
+}
 
 .fs_21 {
     font-size: 21px;
@@ -453,10 +463,14 @@ footer ul li a {
     font-family: 'roboto';
     font-weight: 400;
     font-size: 13px;
+    margin-bottom: 12px;
 }
 @media (max-width:576px) {
     h1 {
         font-size: 38px !important;
+    }
+    .mt_16{
+        margin-top: 16px;
     }
 
     .try_btn {
@@ -465,6 +479,19 @@ footer ul li a {
         font-size: 14px;
 
     }
+    footer ul li a{
+        margin-bottom: 12px;
+    }
+    .margin_b_20{
+        margin-bottom: 15px;
+        
+    }
+    .mt_20{
+        margin-top: 50px !important;
+    }
+        
+    
+
 
     .get_btn {
         padding: 10px 30px;
